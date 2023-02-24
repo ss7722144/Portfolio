@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Part 1*/
+
+body{
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+    background-color: #282834;
+}
+.main-container{
+    background-color: #363543;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+div.logo{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+div.nav{
+    width: auto;
+    height: auto;
+    color: white;
+}
+div.nav ul{
+    height: auto;
+    width: auto;
+    padding-right: 300px;
+}
+div.nav ul li {
+    float: left;
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+div.nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    cursor: pointer;
+}
+div #nav-icons{
+    color: white;
+    padding-top: 40px;
+}
+div #nav-icons i{
+    padding-right: 25px;
+    cursor: pointer;
+}
+/*Part 2*/
+
+.main-container2{
+    background-color: #363543;
+    height: 430px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.im{
+    color: #8c8b99;
+    font-size: 50px;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+.Sameer-name{
+    color: white;
+    font-size: 85px;
+}
+.line1{
+    height: 3px;
+    width: 200px;
+    background-color: #f1be3d;
+    margin-top: 10px;
+}
+.text1{
+    font-size: 15px;
+    color: #8c8b99;
+    width: auto;
+    padding-top: 20px;
+}
+.circle{
+    display: flex;
+    border-radius:100%;
+    height: 400px;
+    width: 400px;
+    background-color: #2d2d39;
+    margin-left: 37%;
+    margin-top: -37%;
+    
+}
+img{
+    display: flex;
+    height: 800px;
+    width: auto;
+    margin-top: -37%;
+    padding-left: 14%;
+    cursor: pointer;
+}
+.text2{
+    padding-right: 185px;
+    padding-top: 45px;
+    font-size: 18px;
+}
+.text3{
+    font-size: 20px;
+}
+.text4{
+    color: #f1be3d;
+    font-size: 15px;
+}
+.social-icons{
+    margin-left: 12%;
+    height: 10px;
+}
+
+/*Part 3*/
+
+.container3{
+    display: flex;
+    height: 100px;
+    width: 85%;
+    background-color: #403f4e;
+    margin-top: -24.4%;
+    margin-left: 7%;
+    justify-content: space-around;
+}
+.meta{
+    display: flex;
+    height: 60%;
+    width: 20%;
+    background-color: #363545;
+    margin-top: 20px;
+}
+.google{
+    display: flex;
+    height: 60%;
+    width: 20%;
+    background-color: #363545;
+    margin-top: 20px;
+}
+.linked{
+    display: flex;
+    height: 60%;
+    width: 20%;
+    background-color: #363545;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.slack{
+    display: flex;
+    height: 60%;
+    width: 20%;
+    background-color: #363545;
+    margin-top: 20px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 4%;
+}
+.container3 .meta img{
+    height: 85%;
+    width: auto;
+    margin-top: 1%;
+}
+.container3 .google img{
+    height: 85%;
+    width: auto;
+    margin-top: 3%;
+}
+.container3 .linked img{
+    height: 85%;
+    width: auto;
+    margin-top: 1%;
+    margin-left:-10px;
+}
+.container3 .slack img{
+    height: 85%;
+    width: auto;
+    margin-top: 3%;
+}
+
+/*Part 4*/
+
+.container4{
+    background-color: #282834;
+    height: 800px;
+    width: auto;
+}
+.text5{
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.text6{
+    font-size: 15PX;
+    margin-top: 30PX;
+    color: #8c8b99;
+}
+.counting1{
+    font-size: 50px;
+    color: #f1be3d;
+    font-weight: bold;
+    margin-top: -600px;
+    margin-left: 100px;
+}
+.counting2{
+    font-size: 50px;
+    color: #f1be3d;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-top: 30PX;
+}
+h3{
+    font-size: 15px;
+    color: #8c8b99;
+    margin-top: 10PX;
+}
+.counting3{
+    font-size: 50px;
+    color: #f1be3d;
+    font-weight: bold;
+    margin-left: 300px;
+    padding-top: 30PX;
+    margin-top: -230PX;
+}
+.counting4{
+    font-size: 50px;
+    color: #f1be3d;
+    font-weight: bold;
+    margin-left: 300px;
+    padding-top: 30PX;
+}
+
+/*Part 4*/
+
+.side-img1{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: 450px;
+    padding-top: 40px;
+}
+.side-img-text1{
+    color: white;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+h4{
+    font-size: 15px;
+    color: #8c8b99;
+}
+.line-img1{
+    height: 2px;
+    width: 600px;
+    background-color: #8c8b99;
+    margin-left: 627px;
+    margin-top: 55px;
+}
+.side-img2{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.side-img-text2{
+    color: white;
+font-size: 30px;
+margin-left: 800px;
+margin-top: -70px;
+}
+.line-img2{
+    height: 2px;
+    width: 600px;
+    background-color: #8c8b99;
+    margin-left: 627px;
+    margin-top: 55px;
+}
+.side-img3{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.side-img-text3{
+    color: white;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+.line-img3{
+    height: 2px;
+    width: 600px;
+    background-color: #8c8b99;
+    margin-left: 627px;
+    margin-top: 55px;
+}
+.Arrow-Size{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-left: 990px;
+    margin-top: -35px;
+    opacity: 70%;
+}
+
+/*Part 5*/
+
+.Card-box-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.Card-box1{
+    height: 300px;
+    width: 320px; 
+    background-color: #3f3e50;
+    margin-left: 100px;
+}
+.Card-box2{
+    height: 300px;
+    width: 320px; 
+    background-color: #3f3e50;
+    margin-left: px;
+}
+.Card-box3{
+    height: 300px;
+    width: 320px;
+    background-color: #3f3e50;
+    margin-right: 100px;
+}
+.card-logo-size{
+    height: 60px;
+    width: 60px;
+    margin-top: 50px;
+}
+h6{
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+p{
+    font-size: 15px;
+    color: #8c8b99;
+    margin-left: 30px;
+    margin-top: 20px;
+}
